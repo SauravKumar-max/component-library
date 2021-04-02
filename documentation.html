@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./components-styles.css">
+    <link rel="icon" type="image/svg" sizes="60x60" href="./img/vector/favivon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Documentation | Blend-UI</title>
+</head>
+<body>
+    <div class="grid-row">
+ 
+        <nav class="navigation">
+            <a href="./index.html"><img src="./img/vector/default-monochrome-white.svg"/></a>
+
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <ul class="navbar-lists">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./documentation.html">Documentation</a></li>
+                <li><a href="https://github.com/SauravKumar-max/component-library/tree/devlopment">Github</a></li>
+            </ul>
+        </nav>
+        
+        <div class="main">
+            <div class="sidebar">
+
+                <div class="slider-heading">
+                    <div class="heading">
+                        <a href="./index.html"><img src="./img/vector/default-monochrome-white.svg"/></a>
+                        <div class="cross-btn">
+                            <div class="line-one"></div>
+                            <div class="line-two"></div>
+                        </div>
+                    </div>
+
+                    <ul class="slider-list">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./documentation.html">Documentation</a></li>
+                        <li><a href="https://github.com/SauravKumar-max/Blend-UI">Github</a></li>
+                    </ul>
+                </div>
+
+                <ul class="sidebar-list">
+                    <li class="item">
+                        <span><a href="#">Getting Started</a></span>
+                    </li>
+                    <li class="item">
+                        <span><a href="#avatars">Avatar</a></span>
+                    </li>
+                    <li class="item">
+                        <span><a href="#alerts">Alert</a></span>
+                    </li>
+                    <li class="item">
+                        <span><a href="#badges">Badge</a></span>
+                        <ul class="sub-list">
+                            <li class="item"><a href="#bgavin">Badge on Avatars/Icons</a></li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <span><a href="#button"> Button </a></span>
+                        <ul class="sub-list">
+                            <li class="item"><a href="#iconbtn"> Icon Button </a></li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <span><a href="#cards">Card</a></span>
+                        <ul class="sub-list">
+                            <li class="item"><a href="#cards">Text only cards</a></li>
+                            <li class="item"><a href="#card-bdg">Cards with badges</a></li>
+                            <li class="item"><a href="#card-dismiss">Cards with dismiss</a></li>
+                            <li class="item"><a href="#card-text-overlay">Cards with text overlay</a></li>
+                            <!-- <li class="item"><a href="#"> Vertical/Horizontal cards </a></li> -->
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <span><a href="#images">Image</a></span>
+                        <ul class="sub-list">
+                            <li class="item"><a href="#images">responsive image</a></li>
+                            <li class="item"><a href=#round-img>round image</a></li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <span><a href="#input">Input</a></span>
+                        <ul class="sub-list">
+                            <li class="item"><a href="#input">textbox</a></li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <span><a href="#lists">Lists</a></span>
+                        <ul class="sub-list">
+                            <li class="item"><a href="#lists">List without spaces</a></li>
+                            <li class="item"><a href="#spaces-lists">List with spaces</a></li>
+                        </ul>
+                    </li>
+                    <li class="item">
+                        <span><a href="#navigation">Navigation</a></span>
+                    </li>
+                    <li class="item"><span><a href="#modal">Modal</a></span></li>
+                    <!-- <li class="item"><sapn><a id="rating" href="#">Rating</a></sapn></li>
+                    <li class="item"><span><a href="#">Slide</a></span></li> -->
+            </div>
+        
+            <div class="content">
+
+                <button class="float-btn "><a href="#"><i class="fas fa-chevron-up"></i></a></button>
+
+                <!-- Gettig Started -->
+
+                <div class="getting-started component-container">
+                    <h2 class="component-heading">Getting Started</h2>
+                    <h3>Installation</h3>
+                        <p class="component-text">HTML: Copy-paste the stylesheet 
+                            &lt;link&gt; into your &lt;head&gt; before all other 
+                            stylesheets to load CSS. 
+                        </p>
+                        <div class="code">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28175%2C187%2C209%2C0.22%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fblend-ui.netlify.app%252Fcomponents-styles.css%2522%253E"
+                                style="width: 750px; height: 112px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+
+                        <p class="component-text">CSS: Copy-paste this code on your css file. </p>
+                        <div class="code">
+                            <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28175%2C187%2C209%2C0.22%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fblend-ui.netlify.app%252Fcomponents-styles.css%27%29%253B%250A"
+                                style="width: 700px; height: 130px; margin-bottom: 10px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                        
+                </div>
+
+                <!-- Avatar -->
+
+                <div id="avatars" class="component-container others">
+                    <h2 class="component-heading">Avatar</h2>
+                    <p class="component-text">
+                        The Avatar component is used to 
+                        represent a user, and displays 
+                        the profile picture or icon.
+                    </p>
+                    <h3>Usage</h3>
+                    <div class="example-box">
+                        <div class="avatar-border">
+                          <img class="border-img" src="./img/photo-smiling.webp" alt="avatar" />  
+                        </div>
+
+                        <div class="avatar-text">
+                            <p class="text">SK</p>
+                        </div>
+
+                        <div class="avatar-normal">
+                            <img class="normal-img" src="./img/avatar2.png" alt="avatar" />  
+                        </div>
+
+                        <div class="avatar-icon">
+                            <i class="fas fa-user-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28175%2C187%2C209%2C0.22%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-border%2522%253E%2520%250A%2509%253Cimg%2520class%253D%2522border-img%2522%2520src%253D%2522.%252Favatar1.png%2522%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-text%2522%253E%250A%2509%253Cp%2520class%253D%2522text%2522%253ESK%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-normal%2522%253E%250A%2509%253Cimg%2520class%253D%2522normal-img%2522%2520src%253D%2522.%252Favatar2.png%2522%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fas%2520fa-user-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                            style="margin-bottom:40px;width:500px;height:350px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin"
+                            allow="clipboard-write">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Alert -->
+
+                <div id="alerts" class="component-container others">
+                    <h2 class="component-heading">Alert</h2>
+                    <p class="component-text">
+                        Alerts are used to communicate a 
+                        state that affects a system, feature or page.
+                    </p>
+                    <h3>Usage</h3>
+                    <div class="example-box">
+                        <div class=" alert error">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <p>Error has occured!</p>
+                        </div>
+
+                        <div class="alert success">
+                            <i class="fas fa-check-circle"></i>
+                            <p>You response is submitted.</p>
+                        </div>
+
+                        <div class="alert warning">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <p>This file can harm your device.</p>
+                        </div>
+
+                        <div class="alert info">
+                            <i class="fas fa-info-circle"></i>
+                            <p>Your work is pending.</p>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520alert%2520error%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253EError%2520has%2520occured%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253EYou%2520response%2520is%2520submitted.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253EThis%2520file%2520can%2520harm%2520your%2520device.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cp%253EYour%2520work%2520is%2520pending.%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                            style="margin-bottom:-110px;width:430px;height:500px;border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Badges -->
+
+                <div id="badges" class="component-container others">
+                    <h2 class="component-heading">Badge</h2>
+                    <p class="component-text">
+                        Badges are used to highlight an item's 
+                        status for quick recognition.
+                    </p>
+                    <h3>Usage</h3>
+                    <div class="example-box">
+                        <span class="badge bg-danger">Danger</span>
+                        <span class="badge bg-warning">Warning</span>
+                        <span class="badge bg-info">Info</span>
+                        <span class="badge bg-light">Light</span>
+                        <span class="badge bg-dark">Dark</span>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522badge%2520bg-danger%2522%253EDanger%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520bg-warning%2522%253EWarning%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520bg-info%2522%253EInfo%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520bg-light%2522%253ELight%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522badge%2520bg-dark%2522%253EDark%253C%252Fspan%253E"
+                            style="margin-bottom:-160px;width:600px;height:300px;padding-bottom:0;border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h3 id="bgavin" class="sub-component sub-others">Badge on Avatar & Icons</h3>
+                    <div class="example-box">
+                        <div class="avatar-border include-badge">
+                            <img class="border-img" src="./img/photo-smiling.webp" alt="avatar" />  
+                            <div class="avt-bg-offline"></div>
+                        </div>
+
+                        <div class="icon-bg include-badge">
+                            <i class="fas fa-bell"></i>
+                            <div class="avt-bg-num">5</div>
+                        </div>
+
+                        <div class="avatar-icon include-badge">
+                            <i class="fas fa-user-alt"></i>
+                            <div class="avt-bg-online"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-border%2520include-badge%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522border-img%2522%2520src%253D%2522.%252Favatar%2522%2520%252F%253E%2520%2520%250A%2520%2520%253Cdiv%2520class%253D%2522avt-bg-offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522icon-bg%2520include-badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avt-bg-num%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar-icon%2520include-badge%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522avt-bg-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width:500px;height:350px;border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                </div>
+
+                <!-- Buttons -->
+                
+                <div id="button" class="component-container others">
+                    <h2 class="component-heading">Button</h2>
+                    <p class="component-text">
+                        The Button component is used to trigger an action or event, 
+                        such as submitting a form, 
+                        opening a dialog, canceling an action, 
+                        or performing a delete operation.
+                    </p>
+                    <h3>Usage</h3>
+                    <div class="example-box">
+                        <button class="primary-btn">Button</button>
+                        <button class="secondary-btn">Button</button>
+                        <button class="borderless-btn">Button</button>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522primary-btn%2522%253EButton%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522secondary-btn%2522%253EButton%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522borderless-btn%2522%253EButton%253C%252Fbutton%253E"
+                        style="margin-bottom:-50px;width:600px;height: 128px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                    <h3 id="iconbtn" class="sub-component sub-others">Icons Button</h3>
+                    <div class="example-box">
+                        <button class="icon-btn"><i class="fas fa-shopping-cart"></i></button>
+                        <button class="text-icon-btn"><i class="fas fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C153%2C206%2C1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522icon-btn%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522text-icon-btn%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520Add%2520To%2520Cart%250A%253C%252Fbutton%253E"
+                        style="width: 368px; height: 248px;border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+
+                <!-- Cards -->
+
+                <div id="cards" class="component-container others">
+                    <h2 class="component-heading">Card</h2>
+                    <p class="component-text">
+                       A Card is a content container.
+                       Cards are full of interactive elements 
+                       such as text, links, buttons or images.
+                    </p>
+
+                    <h3 id="cards" class="sub-component">Text in cards</h3>
+                    <div class="example-box">
+                       <div class="text-card">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi animi voluptas 
+                            rerum vero ipsa? Quod saepe dolores totam dolor veniam provident 
+                            quibusdam facilis nulla perspiciatis? Lorem ipsum dolor, sit amet 
+                            consectetur adipisicing elit. Est dicta ipsam facere ex facilis 
+                            dignissimos odit ullam fugiat totam deleniti? Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Hic debitis beatae repellendus doloribus accusamus 
+                            ullam dolores modi fuga ipsum consequatur?
+                       </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing%2520elit%250A%2520%2520%2520%2520rerum%2520vero%2520ipsa%253F%2520Quod%2520saepe%2520dolores%2520totam%2520dolor%2520veniam%2520%250A%2520%2520%2520%2520quibusdam%2520facilis%2520nulla%2520perspiciatis%253F%2520Lorem%2520ipsum%2520dolor%252C%250A%2520%2520%2520%2520consectetur%2520adipisicing%2520elit.%2520Est%2520dicta%2520ipsam%2520facere%250A%2520%253C%252Fdiv%253E"
+                        style="width: 544px; height: 220px; margin-bottom: -90px;border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                    <h3 id="card-bdg" class="sub-component sub-others">Card with badges</h3>
+                    <div class="example-box">
+                        <div class="card-bdg">
+                            <span class="badge bg-danger"> 50% off</span>
+                            <img class="card-img" src="./img/cardimage1.webp"/>
+                            <div class="card-info">
+                                <p class="brand">Highlander</p>
+                                <small>Men Slim Fit Shirt</small>
+                                <div class="price-details">
+                                    <p class="price">Rs. 999</p>
+                                    <p class="og-price">Rs. 1998</small>
+                                    <p class="offer"> (50% OFF) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-bdg%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-danger%2522%253E50%2525%2520off%253C%252Fspan%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522.%252Fcardimage1.webp%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522brand%2522%253EHighlander%253C%252Fp%253E%250A%2520%2520%2520%2520%253Csmall%253EMen%2520Slim%2520Fit%2520Shirt%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253ERs.%2520999%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522og-price%2522%253ERs.%25201998%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522offer%2522%253E%2520%2850%2525%2520OFF%29%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 461px; height: 328px; margin-bottom: -80px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h3 id="card-dismiss" class="sub-component sub-others">Card with dismiss</h3>
+                    <div class="example-box">
+                        <div class="card-bdg">
+                            <button class="dismiss-btn">x</button>
+                            <img class="card-img" src="./img/cardimage1.webp"/>
+                            <div class="card-info">
+                                <p class="brand">Highlander</p>
+                                <small>Men Slim Fit Shirt</small>
+                                <div class="price-details">
+                                    <p class="price">Rs. 999</p>
+                                    <p class="og-price">Rs. 1998</small>
+                                    <p class="offer"> (50% OFF) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-bdg%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dismiss-btn%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522.%252Fcardimage1.webp%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522brand%2522%253EHighlander%253C%252Fp%253E%250A%2520%2520%2520%2520%253Csmall%253EMen%2520Slim%2520Fit%2520Shirt%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253ERs.%2520999%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522og-price%2522%253ERs.%25201998%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522offer%2522%253E%2520%2850%2525%2520OFF%29%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 461px; height: 328px; margin-bottom: -80px;border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <h3 id="card-text-overlay" class="sub-component sub-others">Card with text overlay</h3>
+                    <div class="example-box">
+                        <div class="card-bdg">
+                            <div class="text-overlay">Out of Stock</div>
+                            <img class="card-img" src="./img/cardimage1.webp"/>
+                            <div class="card-info">
+                                <p class="brand">Highlander</p>
+                                <small>Men Slim Fit Shirt</small>
+                                <div class="price-details">
+                                    <p class="price">Rs. 999</p>
+                                    <p class="og-price">Rs. 1998</small>
+                                    <p class="offer"> (50% OFF) </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-bdg%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253EOut%2520of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522.%252Fcardimage1.webp%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522brand%2522%253EHighlander%253C%252Fp%253E%250A%2520%2520%2520%2520%253Csmall%253EMen%2520Slim%2520Fit%2520Shirt%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522price%2522%253ERs.%2520999%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522og-price%2522%253ERs.%25201998%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522offer%2522%253E%2520%2850%2525%2520OFF%29%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 461px; height: 328px;border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+
+
+                <!-- Images -->
+
+                <div id="images" class="component-container others">
+                    <h2 class="component-heading"> Images </h2>
+                    <p class="component-text">
+                        The Image component is used to display images.
+                    </p>
+                    <h3 id="images" class="sub-component">Responsive Image</h3>
+                    <div class="example-box">
+                        <img class="responsive-img" src="./img/dog-img.jpg"/>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522responsive-img%2522%2520src%253D%2522.%252Fdog-img.jpg%2522%252F%253E"
+                        style="width: 470px; height: 102px; margin-bottom: -80px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                    <h3 id="round-img" class="sub-component sub-others">Round Image</h3>
+                    <div class="example-box">
+                        <img class="round-img" src="./img/dog-img.jpg"/>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522round-img%2522%2520src%253D%2522.%252Fdog-img.jpg%2522%252F%253E"
+                            style="width: 428px; height: 102px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+
+                <!-- Input -->
+
+                <div id="input" class="component-container others">
+                    <h2 class="component-heading"> Input </h2>
+                    <p class="component-text">
+                        The Input component is a component that is 
+                        used to get user input in a text field.
+                    </p>
+
+                    <h3 id="input" class="sub-component">TextBox</h3>
+                    <div class="example-box">
+                        <input class="text-input" type="text" placeholder="Enter your text..."/>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cinput%2520class%253D%2522text-input%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520text...%2522%252F%253E"
+                            style="width: 664px; height: 102px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+
+
+                <!-- Lists -->
+
+                <div id="lists" class="component-container others">
+                    <h2 class="component-heading"> List </h2>
+                    <p class="component-text">
+                        List component is used to display list items. It renders a ul element by default.
+                    </p>
+                    
+                    <h3 id="lists" class="sub-component">List without spaces</h3>
+                    <div class="example-box">
+                        <ul class="nospaces-list">
+                            <li class="list-item">ItemOne</li>
+                            <li class="list-item">Itemwo</li>
+                            <li class="list-item">ItemThree</li>
+                            <li class="list-item">ItemFour</li>
+                        </ul>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522nospaces-list%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EListOne%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EListwo%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EListThree%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EListFour%253C%252Fli%253E%250A%253C%252Ful%253E"
+                        style="width: 368px; height: 192px; border:0; margin-bottom: -80px;transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                    <h3 id="spaces-lists" class="sub-component sub-others">List with spaces</h3>
+                    <div class="example-box">
+                        <ul class="spaces-list">
+                            <li class="list-item">ItemOne</li>
+                            <li class="list-item">itemwo</li>
+                            <li class="list-item">itemThree</li>
+                            <li class="list-item">itemFour</li>
+                        </ul>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522spaces-list%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItemOne%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253Eitemwo%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EitemThree%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EitemFour%253C%252Fli%253E%250A%253C%252Ful%253E"
+                            style="width: 368px; height: 192px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!--  Navigation  -->
+
+                <div id="navigation" class="component-container others">
+                    <h2 class="component-heading"> Navigation </h2>
+                    <p class="component-text">
+                        Navigation help to navigate on the browser.
+                    </p>
+                    <h3>Usage</h3>
+                    <div class="example-box">
+                        <nav class="navbar">
+                            <p>LOGO</p>
+                
+                            <div class="hamburger">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                
+                            <ul class="navbar-lists">
+                                <li><a href="#">LinkOne</a></li>
+                                <li><a href="#">LinkTwo</a></li>
+                                <li><a href="#">LinkThree</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C153%2C206%2C1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%253Cp%253ELOGO%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cdiv%2520class%253D%2522hamburger%2522%253E%250A%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%253E%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%253Cul%2520class%253D%2522navbar-lists%2522%253E%250A%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253ELinkOne%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253ELinkTwo%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253ELinkThree%253C%252Fa%253E%253C%252Fli%253E%250A%2520%253C%252Ful%253E%250A%253C%252Fnav%253E"
+                        style="width: 342px; height: 344px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>
+
+                </div>
+
+                <!-- Modals -->
+
+                <div id="modal" class="component-container others">
+                    <h2 class="component-heading"> Modal</h2>
+                    <p class="component-text">
+                        A dialog is a window overlaid on either the primary window or 
+                        another dialog window. Content behind a modal dialog is inert,
+                        meaning that users cannot interact with it.
+                    </p>
+                    <h3>Usage</h3>
+
+                    <div class="modal-container">
+                        <div class="modal-box">
+                            <div class="modal-heading">
+                                <p>Modal Heading</p>
+                                <button class="close-cross-btn">x</button>
+                            </div>
+                            <div class="modal-content">
+                                <p>Lorem ipsum dolor sit amet consectetur 
+                                    adipisicing elit. Illo saepe possimus nulla 
+                                    asperiores incidunt deleniti harum autem 
+                                    ullam velit itaque. Lorem, ipsum dolor sit 
+                                    amet consectetur adipisicing elit. Quae itaque 
+                                    cum et officiis adipisci facilis rerum dolorem, 
+                                    ulla expedita iusto?
+                                 </p>
+                            </div>
+                            <div class="modal-btns">
+                                <button class="primary-btn">Save</button>
+                                <button class="secondary-btn close-btn">Close</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="example-box">
+                        <button class="primary-btn show-modal">Open Modal</button>
+                    </div>
+
+                    <div class="code">
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-box%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-heading%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520Heading%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-cross-btn%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520%250A%2520%2520%2520%2520%2520%2520%2520%2509adipisicing%2520elit.%2520Illo%2520saepe%2520possimus%2520nulla%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520asperiores%2520incidunt%2520deleniti%2520harum%2520autem%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520ullam%2520velit%2520itaque.%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Quae%2520itaque%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520cum%2520et%2520officiis%2520adipisci%2520facilis%2520rerum%2520dolorem%252C%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520ulla%2520expedita%2520iusto%253F%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary-btn%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522secondary-btn%2520close-btn%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 562px; height: 480px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Archivo-SemiBold
+font link: https://fonts.google.com/specimen/Archivo
+font author: Omnibus-Type
+font author site: http://www.omnibus-type.com/
+
+
+icon designer: Alfredo @ IconsAlfredo.com
+icon designer link: /AlfredoCreates
+        
+{"bg-gradient-0":"#181B80","bg-gradient-1":"#181ED9","font":"#ffffff","icon":"#ffffff","slogan":"#ffffff"}
+      
